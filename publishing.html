@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: black;
+            padding: 10px;
+        }
+
+        .section1 {
+            border-radius: 8px;
+            width: 300px;
+            height: 340px;
+            background: #2C3035;
+        }
+
+        .sec1_img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            background-image: url("image/background.jpg");
+            background-size: cover;
+            height: 145px;
+        }
+
+        .section1 .sec1_content {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: start;
+        }
+
+        .sec1_content h5 {
+            font-size: 18px;
+            color: #b6b7b8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sec1_content p {
+            padding-top: 5px;
+            font-size: 15px;
+            color: #89898b;
+            margin: 0;
+        }
+
+        .sec1_content small {
+            color: #89898b;
+            margin-top: 35px;
+            position: absolute;
+            top: 245px;
+        }
+
+        .sec1_footer {
+            width: 285px;
+            border-top: 1px solid #89898B;
+            position: absolute;
+            top: 310px;
+            height: 45px;
+            color: #89898B;
+            font-size: 14px;
+            padding-left: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .sec1_footer .sec1_left {
+            width: 20px;
+            height: 20px;
+        }
+
+        .sec1_footer .sec1_book {
+            width: 20px;
+            height: 20px;
+            padding-left: 140px
+        }
+
+        .sec1_footer .sec1_dot {
+            width: 20px;
+            height: 20px;
+            padding-right: 8px
+        }
+
+        .section2 {
+            width: 300px;
+            color: #e5e6e7;
+            font-weight: bolder;
+        }
+
+        .sec2_logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .sec2_logo .circle {
+            background: #2C3035;
+            color: #89898B;
+            width: 28px;
+            height: 28px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section2 .main1 {
+            height: 75px;
+            padding-left: 11px;
+            border-radius: 8px;
+            background: #2C3035;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section2 .main1 .main1_content {
+            padding-left: 10px;
+            height: 55px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .section2 .main1 .main1_content .first {
+            font-size: 15px;
+        }
+
+        .section2 .main1 .main1_content .second {
+            font-size: 12px;
+        }
+
+        .section2 .main1 .main1_content .third {
+            font-size: 11px;
+            color: #89898b;
+        }
+    </style>
+</head>
+<body>
+<div class="section1">
+    <div class="sec1_img">
+
+    </div>
+    <div class="sec1_content">
+        <h5>아이폰</h5>
+        <p>바꾸고 싶다</p>
+        <small>iphone</small>
+    </div>
+    <div class="sec1_footer">
+        <img class="sec1_left" src="image/appstore.svg" alt="">
+        <div>T Times</div>
+        <img class="sec1_book" src="image/%20bookmark.svg" alt="">
+        <img class="sec1_dot" src="image/ddd.svg" alt="">
+    </div>
+</div>
+<div class="section2">
+    <div class="sec2_logo">
+        <h3>💼 새로운 채용 공고</h3>
+        <span class="circle">3</span>
+    </div>
+    <div class="main1">
+        <img src="image/seoulstore_app_logo.png" alt="" style="width: 45px">
+        <div class="main1_content">
+            <div class="first">UI/UX 디자이너</div>
+            <div class="second">서울스토어</div>
+            <div class="third">고객의 몰입을 만들고자 합니다!</div>
+        </div>
+    </div>
+
+    <div class="main1" style="padding-top: 5px">
+        <img src="image/toss.png" alt="" style="width: 45px; border-radius: 8px">
+        <div class="main1_content">
+            <div class="first">Product/UI Designer</div>
+            <div class="second">비바리퍼블리</div>
+            <div class="third">TOSS 포트폴리오 없는 디자이너 채</div>
+        </div>
+    </div>
+    <div class="main1">
+        <img src="image/grepp.jpg" alt="" style="width: 45px; border-radius: 8px">
+        <div class="main1_content">
+            <div class="first">Product Designer</div>
+            <div class="second">그랩(프로그래머스/교육사업팀)</div>
+            <div class="third">전사 리모트 근무(영원히 ~)</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
